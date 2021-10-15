@@ -48,7 +48,8 @@ header nav a:hover {
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/Wolfgang-Amadeus-Mozart-1920x1080.jpg');
     
     height: 100%; 
-    
+    width: 100%;
+    display: block;
     background-position: center;
     background-size: cover;
 
@@ -83,4 +84,18 @@ header nav a:hover {
 .botao:hover {
     background-color: white;
     color: black;
+}
+
+.comp-principal .container {
+    width: 60%;
+}
+
+.box-compositor {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-comps {
+    margin-top: 5px;
 }
